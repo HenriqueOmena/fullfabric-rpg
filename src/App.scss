@@ -1,0 +1,42 @@
+// .App {
+//   border: solid 1px red;
+// }
+
+
+.Player {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: space-between;
+  img {
+    max-width: 100px;
+  }
+
+  &.isYourTurn {
+    border: solid 2px blue;
+  }
+}
+
+.Board {
+
+ .battle-field {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .die {
+  display: flex;
+  justify-content: center;
+ }
+}
+
+.Die {
+  border: solid 3px black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
